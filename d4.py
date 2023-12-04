@@ -11,7 +11,7 @@ def c(d):
             q = 1 if q == 0 else q * 2
     return q
 
-t = sum(c(i.strip()) for i in data)
+t = sum(c(i.strip()) for i in f)
 t
 
 def s(l):
@@ -24,6 +24,6 @@ def s(l):
                 b[i + j] += b[i]
     return sum(b)
 
-f = s(data)
-f
+r = s(f)
+r
 
